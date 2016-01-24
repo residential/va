@@ -3,14 +3,14 @@ const context = path.resolve(__dirname, '..', 'app');
 
 module.exports = {
   context,
-  entry: './index.js',
+  entry:  './index',
   output: {
     libraryTarget: 'umd',
     library: 'va',
     umdNamedDefine: true,
     path: path.resolve(__dirname, '..', 'public', 'assets'),
     publicPath: '/assets/',
-    filename: 'index.js'
+    filename: 'va.js'
   },
   module: {
     loaders: [
