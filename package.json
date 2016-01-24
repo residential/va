@@ -17,6 +17,7 @@
   },
   "scripts": {
     "lint": "standard app",
-    "start": "webpack-dev-server --config config/webpack.config.js --hot --inline --progress"
+    "start": "webpack-dev-server --config config/webpack.config.js --hot --inline --progress",
+    "test": "npm run lint"
   }
 }
