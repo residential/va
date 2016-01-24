@@ -1,5 +1,9 @@
 # va
 
+![ci](https://circleci.com/gh/residential/va.svg?style=shield&circle-token=7e435a9a4d8e8d254f5aa05b332f66bc91a773f7)
+![dependencies](https://david-dm.org/residential/va.svg)
+![devDependencies](https://david-dm.org/residential/va/dev-status.svg)
+
 Reactive patterns for visualizing audio streams.
 
 ## Development
