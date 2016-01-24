@@ -16,6 +16,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "scripts": {
+    "lint": "standard app",
     "start": "webpack-dev-server --config config/webpack.config.js --hot --inline --progress"
   }
 }
